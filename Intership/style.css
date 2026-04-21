@@ -400,7 +400,103 @@ body {
 
 .top1 {
   height: 120px;
-
   background-image: url("person.jpeg");
   background-size: cover;
 }
+.top2 {
+   height: 120px;
+  background-image: url("profile1.jpg");
+  background-size: cover;
+}
+.top3 {
+   height: 120px;
+  background-image: url("profile2.jpg");
+  background-size: cover;
+}
+.top4 {
+   height: 120px;
+  background-image: url("profile3.jpg");
+  background-size: cover;
+}
+.top5 {
+   height: 120px;
+  background-image: url("data\ science.webp");
+  background-size: cover;
+}
+.top6 {
+   height: 120px;
+  background-image: url("profile7.webp");
+  background-size: cover;
+}
+.top7 {
+   height: 120px;
+  background-image: url("Python-AI.jpg");
+  background-size: cover;
+}
+.top8 {
+   height: 120px;
+  background-image: url("profile5.jpg");
+  background-size: cover;
+}
+.top9 {
+   height: 120px;
+  background-image: url("profile8.avif");
+  background-size: cover;
+}
+.top10 {
+   height: 120px;
+  background-image: url("profile9.jpg");
+  background-size: cover;
+}
+.top11 {
+   height: 120px;
+  background-image: url("profile10.jpg");
+  background-size: cover;
+}
+.top12 {
+   height: 120px;
+  background-image: url("profile11.png");
+  background-size: cover;
+}
+.top13 {
+   height: 120px;
+  background-image: url("profile12.jpg");
+  background-size: cover;
+}
+.top14 {
+   height: 120px;
+  background-image: url("profile13.jpg");
+  background-size: cover;
+}
+.top15 {
+   height: 120px;
+  background-image: url("profile14.jpg");
+  background-size: cover;
+}
+.top16 {
+   height: 120px;
+  background-image: url("profile15.jpg");
+  background-size: cover;
+}
+.top17 {
+   height: 120px;
+  background-image: url("profile16.jpg");
+  background-size: cover;
+}
+.top18 {
+   height: 120px;
+  background-image: url("profile17.avif");
+  background-size: cover;
+}
+.top19 {
+   height: 120px;
+  background-image: url("profile18.avif");
+  background-size: cover;
+}
+.top20 {
+   height: 120px;
+  background-image: url("profile19.jpg");
+  background-size: cover;
+}
+
+

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Top Logos -->
+    <div class="top-bar">
+      <img src="Google.png" />
+      <img src="Amazon_logo.svg" />
+      <img src="Amazon_Web_Services_Logo.svg" />
+      <img src="Wipro.svg" />
+      <img src="Infosys_logo.svg" />
+      <img src="IBM_logo.svg" />
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Left -->
+      <div class="left-panel">
+        <h2>CareerBridge IMS</h2>
+        <p>Your gateway to internships</p>
+
+        <div class="slider-box">
+          <img src="person.jpeg" />
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="right-panel">
+        <h2>Log in</h2>
+
+        <div class="tabs">
+          <button class="active" onclick="setRole('student')">
+            As Student
+          </button>
+          <button onclick="setRole('admin')">As SPOC/Admin/Trainer</button>
+        </div>
+
+        <div class="login-type">
+          <label><input type="radio" checked /> Email</label>
+          <label><input type="radio" /> Mobile</label>
+        </div>
+
+        <input
+          type="text"
+          id="inputField"
+          class="input"
+          placeholder="Email Address"
+        />
+        <!-- ADMIN PASSWORD -->
+        <input
+          type="password"
+          id="adminPassword"
+          class="input"
+          placeholder="Password"
+          style="display: none"
+        />
+
+        <!-- otp verification -->
+        <input
+          type="text"
+          id="otpField"
+          class="input"
+          placeholder="Enter OTP"
+          style="display: none"
+        />
+
+        <button
+          class="otp-btn"
+          id="verifyBtn"
+          onclick="verifyOTP()"
+          style="display: none"
+        >
+          Verify OTP
+        </button>
+
+        <div class="success-box" id="statusBox">✔ Ready to send OTP</div>
+
+        <button class="otp-btn" onclick="sendOTP()">Send OTP</button>
+
+        <p class="help">Problems logging in?</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

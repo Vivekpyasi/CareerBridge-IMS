@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+
+  <body>
+    <div class="topbar">
+      <h2>CareerBridge IMS</h2>
+      <button class="back-btn" onclick="goToDashboard()">⬅ Dashboard</button>
+    </div>
+
+    <div class="container">
+      <!-- PROFILE HEADER -->
+      <div class="profile-header">
+        <div class="avatar"></div>
+
+        <div class="user-info">
+          <h2 id="userName"></h2>
+          <p>📧 <span id="userEmail"></span></p>
+        </div>
+
+        <button class="update-btn">Update Profile</button>
+      </div>
+
+      <!-- TABS -->
+      <div class="tabs">
+        <span class="active" onclick="showTab('personal')">Personal Info</span>
+        <span onclick="showTab('education')">Education</span>
+        <span onclick="showTab('career')">Career & Links</span>
+      </div>
+
+      <!-- PERSONAL -->
+      <div id="personalSection" class="tab-content active-tab">
+        <div class="content">
+          <div class="card">
+            <h3>Contact Information</h3>
+            <div class="info-row">
+              <span>Email</span><span id="userEmail2"></span>
+            </div>
+            <div class="info-row">
+              <span>Contact</span><span>9300000000</span>
+            </div>
+            <div class="info-row">
+              <span>WhatsApp</span><span>9300000000</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Personal Details</h3>
+            <div class="info-row"><span>DOB</span><span>2005-07-10</span></div>
+            <div class="info-row"><span>Gender</span><span>Male</span></div>
+            <div class="info-row"><span>Category</span><span>GEN</span></div>
+            <div class="info-row"><span>Disability</span><span>No</span></div>
+          </div>
+
+          <div class="card">
+            <h3>Extra Info</h3>
+            <div class="info-row"><span>Status</span><span>Active</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div id="educationSection" class="tab-content">
+        <div class="content">
+          <!-- 10th -->
+          <div class="card">
+            <h3>10th (Secondary)</h3>
+            <div class="info-row">
+              <span>School</span><span>ABC School</span>
+            </div>
+            <div class="info-row"><span>Board</span><span>CBSE</span></div>
+            <div class="info-row"><span>Year</span><span>2020</span></div>
+            <div class="info-row"><span>Percentage</span><span>85%</span></div>
+          </div>
+
+          <!-- 12th -->
+          <div class="card">
+            <h3>12th (Senior Secondary)</h3>
+            <div class="info-row">
+              <span>School</span><span>XYZ School</span>
+            </div>
+            <div class="info-row"><span>Stream</span><span>Science</span></div>
+            <div class="info-row"><span>Board</span><span>CBSE</span></div>
+            <div class="info-row"><span>Year</span><span>2022</span></div>
+            <div class="info-row"><span>Percentage</span><span>88%</span></div>
+          </div>
+
+          <!-- UG -->
+          <div class="card">
+            <h3>UG (Graduation)</h3>
+            <div class="info-row">
+              <span>College</span><span>ABC College</span>
+            </div>
+            <div class="info-row"><span>Course</span><span>BCA</span></div>
+            <div class="info-row">
+              <span>Year</span><span>2023 - 2026</span>
+            </div>
+            <div class="info-row"><span>CGPA</span><span>8.5</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAREER -->
+      <div id="careerSection" class="tab-content">
+        <div class="content">
+          <!-- CURRENT POSITION -->
+          <div class="card">
+            <h3>Current Position</h3>
+            <div class="info-row"><span>Status</span><span>Student</span></div>
+            <div class="info-row">
+              <span>Role</span><span>Frontend Developer</span>
+            </div>
+            <div class="info-row">
+              <span>Company</span><span>Freelance</span>
+            </div>
+            <div class="info-row">
+              <span>Experience</span><span>1 Year</span>
+            </div>
+          </div>
+
+          <!-- SOCIAL -->
+          <div class="card">
+            <h3>Social Platforms</h3>
+            <div class="info-row">
+              <span>LinkedIn</span><span><a href="#">Profile</a></span>
+            </div>
+            <div class="info-row">
+              <span>GitHub</span><span><a href="#">Profile</a></span>
+            </div>
+            <div class="info-row">
+              <span>Portfolio</span><span><a href="#">View</a></span>
+            </div>
+            <div class="info-row">
+              <span>Instagram</span><span><a href="#">Profile</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

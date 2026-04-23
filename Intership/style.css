@@ -400,103 +400,129 @@ body {
 
 .top1 {
   height: 120px;
-  background-image: url("person.jpeg");
+  background-image: url("images1/person.jpeg");
   background-size: cover;
 }
 .top2 {
    height: 120px;
-  background-image: url("profile1.jpg");
+  background-image: url("images1/profile1.jpg");
   background-size: cover;
 }
 .top3 {
    height: 120px;
-  background-image: url("profile2.jpg");
+  background-image: url("images1/profile2.jpg");
   background-size: cover;
 }
 .top4 {
    height: 120px;
-  background-image: url("profile3.jpg");
+  background-image: url("images1/profile3.jpg");
   background-size: cover;
 }
 .top5 {
    height: 120px;
-  background-image: url("data\ science.webp");
+  background-image: url("images1/data\ science.webp");
   background-size: cover;
 }
 .top6 {
    height: 120px;
-  background-image: url("profile7.webp");
+  background-image: url("images1/profile7.webp");
   background-size: cover;
 }
 .top7 {
    height: 120px;
-  background-image: url("Python-AI.jpg");
+  background-image: url("images1/Python-AI.jpg");
   background-size: cover;
 }
 .top8 {
    height: 120px;
-  background-image: url("profile5.jpg");
+  background-image: url("images1/profile5.jpg");
   background-size: cover;
 }
 .top9 {
    height: 120px;
-  background-image: url("profile8.avif");
+  background-image: url("images1/profile8.avif");
   background-size: cover;
 }
 .top10 {
    height: 120px;
-  background-image: url("profile9.jpg");
+  background-image: url("images1/profile9.jpg");
   background-size: cover;
 }
 .top11 {
    height: 120px;
-  background-image: url("profile10.jpg");
+  background-image: url("images1/profile10.jpg");
   background-size: cover;
 }
 .top12 {
    height: 120px;
-  background-image: url("profile11.png");
+  background-image: url("images1/profile11.png");
   background-size: cover;
 }
 .top13 {
    height: 120px;
-  background-image: url("profile12.jpg");
+  background-image: url("images1/profile12.jpg");
   background-size: cover;
 }
 .top14 {
    height: 120px;
-  background-image: url("profile13.jpg");
+  background-image: url("images1/profile13.jpg");
   background-size: cover;
 }
 .top15 {
    height: 120px;
-  background-image: url("profile14.jpg");
+  background-image: url("images1/profile14.jpg");
   background-size: cover;
 }
 .top16 {
    height: 120px;
-  background-image: url("profile15.jpg");
+  background-image: url("images1/profile15.jpg");
   background-size: cover;
 }
 .top17 {
    height: 120px;
-  background-image: url("profile16.jpg");
+  background-image: url("images1/profile16.jpg");
   background-size: cover;
 }
 .top18 {
    height: 120px;
-  background-image: url("profile17.avif");
+  background-image: url("images1/profile17.avif");
   background-size: cover;
 }
 .top19 {
    height: 120px;
-  background-image: url("profile18.avif");
+  background-image: url("images1/profile18.avif");
   background-size: cover;
 }
 .top20 {
    height: 120px;
-  background-image: url("profile19.jpg");
+  background-image: url("images1/profile19.jpg");
   background-size: cover;
+}
+/* Cards details*/
+body {margin:0; font-family:Arial;}
+.hero {
+  background:#1f5f8b;
+  color:white;
+  padding:60px;
+}
+.hero h1 {color:orange;}
+
+.btn {
+  background:orange;
+  padding:12px 20px;
+  border:none;
+  border-radius:8px;
+  color:white;
+}
+
+.info-box {
+  background:#144c6b;
+  margin:30px;
+  padding:25px;
+  border-radius:15px;
+  display:flex;
+  justify-content:space-around;
+  color:white;
 }
 
 

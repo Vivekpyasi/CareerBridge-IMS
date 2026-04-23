@@ -167,3 +167,49 @@ function logout() {
   localStorage.clear();
   window.location.href = "index.html";
 }
+// ===== CARDS DETAILS =====
+function openDetails(id){
+  window.location.href = "details.html?course=" + id;
+}
+// const courses = {
+
+//   aws: {
+//     title:"AWS Gen AI",
+//     tagline:"Accelerate your Career",
+//     desc:"Learn machine learning, NLP and generative AI using AWS.",
+//     modules:"Multiple Modules",
+//     duration:"8 Weeks",
+//     rating:"5 Ratings",
+//     language:"English",
+//     learners:"9.1k+"
+//   },
+
+//   google: {
+//     title:"Google Gen AI",
+//     tagline:"Build with Google AI",
+//     desc:"Explore generative AI tools and models from Google.",
+//     modules:"10 Modules",
+//     duration:"10 Weeks",
+//     rating:"4.5 Ratings",
+//     language:"English",
+//     learners:"7k+"
+//   }
+
+// };
+
+// // 🔥 URL se id lo
+// const params = new URLSearchParams(window.location.search);
+// const id = params.get("course");
+
+// // 🔥 data set karo
+// const data = courses[id];
+
+// document.getElementById("title").innerText = data.title;
+// document.getElementById("tagline").innerText = data.tagline;
+// document.getElementById("desc").innerText = data.desc;
+// document.getElementById("modules").innerText = data.modules;
+// document.getElementById("duration").innerText = data.duration;
+// document.getElementById("rating").innerText = data.rating;
+// document.getElementById("language").innerText = data.language;
+// document.getElementById("learners").innerText = data.learners;
+
